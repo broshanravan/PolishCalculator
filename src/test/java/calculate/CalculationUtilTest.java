@@ -18,7 +18,7 @@ public class CalculationUtilTest {
         String collection = "1.0 2.0 +";
         String result = calculationUtil.calculateLineOperationResults(collection);
 
-        //assertEquals(result,"3.0");
+        assertEquals(result,"3.0");
 
     }
 
@@ -26,7 +26,7 @@ public class CalculationUtilTest {
     public void testWithFunctionAtTheEnd() {
         String collection = "6 3 * 2 - sqrt";
         String result = calculationUtil.calculateLineOperationResults(collection);
-       // assertEquals(result,"4.0");
+        assertEquals(result,"4.0");
 
     }
 
@@ -35,7 +35,7 @@ public class CalculationUtilTest {
         String collection = "4 2 - 2 - 1000 *";
         String result = calculationUtil.calculateLineOperationResults(collection);
 
-       // assertEquals(result,"0.0");
+        assertEquals(result,"0.0");
 
     }
 
