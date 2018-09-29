@@ -50,7 +50,7 @@ dependencies {
 //creates a single Jar with all dependencies
 task fatJar(type: Jar) {
     manifest {
-        attributes 'Main-Class': 'CalculationUtil'
+        attributes 'Main-Class': 'calculate.CalculationUtil'
     }
 
     baseName = project.name
