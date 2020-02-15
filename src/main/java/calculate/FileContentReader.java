@@ -31,7 +31,7 @@ public class FileContentReader implements IFileContentReader {
      */
 
     public List<String>readFileLinesToList(String operationsFleNamePath){
-        
+
         List<String> fileIndividualLines = new ArrayList();
 
         java.io.FileReader fileReader ;
