@@ -31,8 +31,7 @@ public class FileContentReader implements IFileContentReader {
      */
 
     public List<String>readFileLinesToList(String operationsFleNamePath){
-
-
+        
         List<String> fileIndividualLines = new ArrayList();
 
         java.io.FileReader fileReader ;
@@ -56,7 +55,7 @@ public class FileContentReader implements IFileContentReader {
             System.out.print("Please try again : " );
            // logger.error("error file not found", fnf);
         } catch (IOException ioe) {
-           // logger.error("error closing connection", ioe);
+            logger.error("error closing connection", ioe);
 
         } finally {
 
