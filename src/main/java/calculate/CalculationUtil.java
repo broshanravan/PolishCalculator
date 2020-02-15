@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class CalculationUtil implements ICalculationUtil{
 
     ValidationUtil validationUtil = new ValidationUtil();
-    
+    int i = 1;
 
     /**
      * first asks for the fle name in case the name is valid
